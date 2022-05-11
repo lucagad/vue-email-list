@@ -27,7 +27,7 @@ const app = new Vue ({
 
       }
 
-      //Inserito per ritardare il
+      //Inserito per ritardare il caricamento della lista
       setTimeout(() => {
         this.isLoading = false} , 2000);
 
